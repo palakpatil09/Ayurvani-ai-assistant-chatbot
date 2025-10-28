@@ -30,3 +30,15 @@ It provides **natural Ayurvedic remedies** for various health concerns based on 
    ```bash
    git clone https://github.com/yourusername/Ayuvani.git
    cd Ayuvani
+   Install dependencies:
+
+pip install -r requirements.txt
+Create a .env file (don’t upload this):
+
+GROQ_API_KEY=your_api_key_here
+
+
+Run the app:
+
+streamlit run main.py
+
